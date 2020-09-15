@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*--Deel 1: kennismaken met pseudo-classes--*/
+.link_1:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.link_2:active {
+    color: red;
+    font-style: italic;
+}
+
+.link_3:visited {
+    color: yellow;
+}
+
+input[type=text]:focus {
+    color: green;
+    font-size: 20px;
+    border: green solid 20px;
+}
+
+/*--Deel 2: een navigatie menu--*/
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav ul li:first-child {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.menu_wrapper {
+    background-color: darkblue;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.currentPage {
+    background-color: lightslategray ;
+}
+
+nav ul li:hover {
+   background-color: lightblue;
+}
+
+nav ul li:last-child:hover {
+    background-color: darkblue;
+ }
+
+input[type=search]:focus {
+    border: aqua solid 5px;
+    outline: none;
+}
